@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services</title>
+    <link href="output.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-gray-900 min-h-screen py-12">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold text-center text-white mb-12">
+        Our Services Section
+      </h1>
+
+      <div class="flex flex-col md:flex-row gap-8 justify-center">
+        <!--
+     flex:Turns this <div> into a  flexbox container. This is required to align its children (the cards) using Flexbox.flex-col: Stacks the child cards vertically by default on mobile/small screens.
+     md:flex-row : On medium screens and larger (>=768px), it changes the layout to horizontal row - so cards appear side by side.
+     gap-8: Adds space (gap = 2rem) between the cards (whether they're stacked or side by side).
+     justify-center: Horizontally centers the cards inside the flex container (only matters when cards are in a row).-->
+
+        <!-- Card 1 -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-md text-center w-full md:w-1/3 transition-transform duration-300 hover:scale-105"
+        >
+          <div class="text-5xl mb-4">💻</div>
+          <h3 class="text-2xl font-semibold mb-2">Web Development</h3>
+          <p class="text-gray-600 mb-4">
+            We build fast, modern websites that help your business grow online.
+          </p>
+          <button
+            class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700"
+          >
+            Learn More
+          </button>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-md text-center w-full md:w-1/3 transition-transform duration-300 hover:scale-105"
+        >
+          <div class="text-5xl mb-4">📱</div>
+          <h3 class="text-2xl font-semibold mb-2">App Design</h3>
+          <p class="text-gray-600 mb-4">
+            Designing beautiful, user-friendly mobile apps for all platforms.
+          </p>
+          <button
+            class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+          >
+            Learn More
+          </button>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="bg-white p-6 rounded-lg shadow-md text-center w-full md:w-1/3 transition-transform duration-300 hover:scale-105"
+        >
+          <div class="text-5xl mb-4">🎨</div>
+          <h3 class="text-2xl font-semibold mb-2">Graphic Design</h3>
+          <p class="text-gray-600 mb-4">
+            Creating visual content that communicates your brand message.
+          </p>
+          <button
+            class="bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700"
+          >
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
